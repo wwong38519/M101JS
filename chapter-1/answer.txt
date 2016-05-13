@@ -1,0 +1,9 @@
+# homework 1-1
+Hello from MongoDB!
+
+# homework 1-2
+I like kittens
+
+# homework 1-3
+Hello, Agent 007.
+

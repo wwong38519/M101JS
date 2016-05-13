@@ -1,0 +1,6 @@
+cd mongomart
+npm install
+mongoimport -d mongomart -c item --drop data/items.json
+mongoimport -d mongomart -c cart --drop data/cart.json
+node mongomart.js
+curl http://localhost:3000

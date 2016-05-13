@@ -1,0 +1,11 @@
+#hw3-1
+When we call a cursor method passing a callback function to process query results
+
+#hw3-2
+Bob, Seamus
+
+#hw3-3
+169
+
+#hw3-4
+48

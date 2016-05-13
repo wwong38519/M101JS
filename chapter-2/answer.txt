@@ -1,0 +1,18 @@
+# homework 2-1
+A Decade of Decadence, Pt. 2: Legacy of Dreams
+
+# homework 2-2
+db.movieDetails.find({year: 1964}, {title: 1, _id: 0})
+db.movieDetails.find({}, {title: 1, _id: 0})
+
+# homework 2-3
+6
+
+# homework 2-4
+20
+
+# homework 2-5
+56
+
+# homework 2-6
+$set

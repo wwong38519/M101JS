@@ -1,0 +1,16 @@
+{ firstYear: 2002, lastYear: 2016, city: 'Palo Alto' }
+{ lastYear: 2010, city: 'New York' }
+{ city: 'London' }
+Successfully connected to MongoDB for query: 2
+Successfully connected to MongoDB for query: 1
+Successfully connected to MongoDB for query: 0
+Query 2 was:{"tag_list":{"$regex":"social-networking"},"offices.city":"London"}
+Matching documents: 20
+Query 1 was:{"tag_list":{"$regex":"social-networking"},"founded_year":{"$lte":2010},"offices.city":"New York"}
+Matching documents: 20
+Query 0 was:{"tag_list":{"$regex":"social-networking"},"founded_year":{"$gte":2002,"$lte":2016},"offices.city":"Palo Alto"}
+Matching documents: 6
+Companies found: asmallworld,bookglutton,buongiorno,buzzr,bview,doostang,event-innovation,facebook,fledgewing,flirtomatic,fotolog,getitwithme,gocrosscampus,hellotxt,innerrewards,instablogs,ipadio,justmeans,mangoapps,mobikade,mystylepost,omnivents,people-capital,publictivity,recommend-box,selectminds,sendible,skydeck,social-sauce,socialgo,socialtext,talkbiznow,tradingup-online,trustedplaces,unltdworld,unype,weardrobe,webjam,yammer,yellowspaces,zedge,zemoga
+Total employees in companies identified: 7130
+Total unique companies: 42
+Average number of employees per company: 169
